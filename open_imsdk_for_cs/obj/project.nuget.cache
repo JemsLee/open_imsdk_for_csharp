@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9U5Lun3ltLjKVjieSLBL6yNHgKMUl4h3gI8dcRZTiMwCBlWlIzS0fT43dt44aZEs7APErmNgURMhKzXcDM7S6Q==",
+  "success": true,
+  "projectFilePath": "/Users/jem.lee/Documents/newSourceCode/imsdk/C#/open_imsdk_for_C#/open_imsdk_for_cs/open_imsdk_for_cs/open_imsdk_for_cs.csproj",
+  "expectedPackageFiles": [
+    "/Users/jem.lee/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/jem.lee/.nuget/packages/websocketsharp.core/1.0.0/websocketsharp.core.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

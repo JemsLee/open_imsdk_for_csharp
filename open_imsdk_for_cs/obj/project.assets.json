@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "websocketsharp.core/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/websocket-sharp-core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/websocket-sharp-core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "websocketsharp.core/1.0.0": {
+      "sha512": "Pdr9TtOtlaxKI6XtuHdRBrxFsBPCpqxNerAFbpdb2K7foBMYJmUOV+wqhklZilphtFjxT5zN1X6X3iyG/OovAQ==",
+      "type": "package",
+      "path": "websocketsharp.core/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/websocket-sharp-core.dll",
+        "websocketsharp.core.1.0.0.nupkg.sha512",
+        "websocketsharp.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Newtonsoft.Json >= 13.0.1",
+      "websocketsharp.core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jem.lee/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jem.lee/Documents/newSourceCode/imsdk/C#/open_imsdk_for_C#/open_imsdk_for_cs/open_imsdk_for_cs/open_imsdk_for_cs.csproj",
+      "projectName": "open_imsdk_for_cs",
+      "projectPath": "/Users/jem.lee/Documents/newSourceCode/imsdk/C#/open_imsdk_for_C#/open_imsdk_for_cs/open_imsdk_for_cs/open_imsdk_for_cs.csproj",
+      "packagesPath": "/Users/jem.lee/.nuget/packages/",
+      "outputPath": "/Users/jem.lee/Documents/newSourceCode/imsdk/C#/open_imsdk_for_C#/open_imsdk_for_cs/open_imsdk_for_cs/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/jem.lee/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "websocketsharp.core": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
